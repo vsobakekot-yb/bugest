@@ -1,0 +1,62 @@
+{
+  "id": "61c307cc-b708-4e53-b2fc-5cbb36b9f410",
+  "part": "metaInfo",
+  "filesPane": 1,
+  "": "main",
+  "mainFunc": "main",
+  "mainFile": "main.py",
+  "portsPart": "in",
+  "in": [
+    {
+      "portId": "IN_1",
+      "type": "default",
+      "parameters": [],
+      "name": "def",
+      "label": "",
+      "description": "",
+      "required": true
+    }
+  ],
+  "out": [],
+  "tabSettings": {
+    "tabs": [
+      {
+        "label": "General",
+        "option": "ctrl92",
+        "settings": [
+          {
+            "board": {
+              "label": "General",
+              "dummies": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Results": [
+    {
+      "board": {
+        "label": "Results",
+        "dummies": []
+      }
+    }
+  ],
+  "moduleName": "html test1234253t3243t42t342r432re324r43",
+  "modulePlace": "docker",
+  "memoryPolicy": {
+    "minMb": "",
+    "maxMb": "",
+    "sizingInputK": ""
+  },
+  "sparkSettings": {
+    "SPARK_JOB_QUEUE_NAME": "default",
+    "SPARK_DRIVER_MEMORY_MB": 1024,
+    "SPARK_EXECUTOR_MEMORY_MB": 1024,
+    "SPARK_EXECUTOR_INSTANCES": 0,
+    "SPARK_EXECUTOR_CORES": 1
+  },
+  "moduleType": "other",
+  "moduleDescription": "",
+  "moduleFullDescription": ""
+}

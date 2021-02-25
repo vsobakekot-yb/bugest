@@ -1,0 +1,47 @@
+{
+  "id": "61c307cc-b708-4e53-b2fc-5cbb36b9f410",
+  "name": "html test1234253t3243t42t342r432re324r43",
+  "description": "",
+  "fullDescription": "",
+  "ports": [
+    {
+      "name": "def",
+      "label": "",
+      "in": true,
+      "type": "default",
+      "shape": "shape_model",
+      "required": true,
+      "description": "",
+      "order": 1
+    }
+  ],
+  "script": {
+    "type": "python",
+    "deployType": "docker",
+    "runConfiguration": {
+      "sourceFiles": [
+        "main.py"
+      ],
+      "functionName": "main",
+      "functionParameters": [],
+      "output": {
+        "type": "json",
+        "output": []
+      }
+    }
+  },
+  "shape": "other",
+  "ui": {
+    "settings": [
+      {
+        "page": "General",
+        "title": "General",
+        "components": []
+      }
+    ],
+    "result": {
+      "title": "Results",
+      "components": []
+    }
+  }
+}
